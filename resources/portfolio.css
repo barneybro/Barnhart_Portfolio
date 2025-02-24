@@ -728,6 +728,7 @@ button:hover {
 
     /* Social Icons */
     .home-sci {
+        display: none;
         position: static;
         justify-content: center;
         margin-top: 20px; /* Adjust spacing above social icons */
