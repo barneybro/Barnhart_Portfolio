@@ -656,3 +656,175 @@ button:hover {
     margin-top: 20px;
     color: #888;
 }
+
+
+/* ===== MEDIA QUERIES FOR MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+    /* General Adjustments */
+    body {
+        font-size: 14px;
+    }
+
+    /* Header */
+    header {
+        padding: 10px 5%;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .navigation a {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    /* Home Section */
+    .home-container {
+        flex-direction: column;
+        padding: 60px 5% 30px;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-box a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .profile-container {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .home-sci {
+        position: static;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* About Me Section */
+    .aboutme {
+        padding: 50px 5%;
+        height: auto;
+    }
+
+    .aboutme-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .basicInfo {
+        max-width: 100%;
+    }
+
+    .basicInfo h1 {
+        font-size: 36px;
+    }
+
+    .basicInfo h3 {
+        font-size: 20px;
+    }
+
+    .basicInfo p {
+        font-size: 16px;
+    }
+
+    .aboutmepic {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .aboutmepic img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Portfolio Sections */
+    .portfolio, .portfolio2 {
+        padding: 50px 5%;
+    }
+
+    .portfolio-header h1, .portfolio-header h1 {
+        font-size: 36px;
+    }
+
+    .portfolio-header h3, .portfolio-header h3 {
+        font-size: 18px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .project-content h1 {
+        font-size: 24px;
+    }
+
+    .project-content p {
+        font-size: 16px;
+    }
+
+    .project-image img {
+        max-width: 100%;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 50px 5%;
+    }
+
+    .contact-container h2 {
+        font-size: 36px;
+    }
+
+    .contact-container p {
+        font-size: 16px;
+    }
+
+    .input-box input, .input-box textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 5%;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+
+    .contact-info ul li {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
