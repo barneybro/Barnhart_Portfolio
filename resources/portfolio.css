@@ -657,6 +657,15 @@ button:hover {
     color: #888;
 }
 
+
+
+
+
+
+
+
+
+
 /* ===== MEDIA QUERIES FOR MOBILE RESPONSIVENESS ===== */
 @media (max-width: 768px) {
     /* General Adjustments */
@@ -699,6 +708,11 @@ button:hover {
     .home-content h1 {
         font-size: 36px;
         margin-bottom: 10px;
+        text-shadow: 
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
     }
 
     .home-content h3 {
