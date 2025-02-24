@@ -661,7 +661,6 @@ button:hover {
 @media (max-width: 768px) {
     /* General Adjustments */
     body {
-        border: 5px solid red; /* Remove this after debugging */
 
         font-size: 16px; /* Increase base font size for better readability */
     }
@@ -685,7 +684,6 @@ button:hover {
         margin-left: 0; /* Remove left margin for better spacing */
     }
 
-    /* Home Section Adjustments */
     .home-container {
         flex-direction: column;
         align-items: center;
@@ -695,6 +693,7 @@ button:hover {
 
     .home-content {
         align-items: center;
+        margin-bottom: 30px; /* Add spacing below the content */
     }
 
     .home-content h1 {
@@ -722,14 +721,16 @@ button:hover {
         text-align: center;
     }
 
+    /* Hide Profile Picture on Mobile */
     .profile-container {
-        margin-top: 30px;
+        display: none;
     }
 
+    /* Social Icons */
     .home-sci {
         position: static;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 20px; /* Adjust spacing above social icons */
     }
 
     .home-sci a {
