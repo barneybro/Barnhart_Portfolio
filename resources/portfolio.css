@@ -685,25 +685,57 @@ button:hover {
         margin-left: 0; /* Remove left margin for better spacing */
     }
 
-    /* Home Section */
+    /* Home Section Adjustments */
     .home-container {
         flex-direction: column;
-        padding: 60px 5% 30px;
+        align-items: center;
         text-align: center;
-        width: 100%; /* Ensure full width */
+        padding: 60px 5% 30px;
+    }
+
+    .home-content {
+        align-items: center;
     }
 
     .home-content h1 {
-        font-size: 42px; /* Larger heading for mobile */
+        font-size: 36px;
+        margin-bottom: 10px;
     }
 
     .home-content h3 {
-        font-size: 28px; /* Larger subheading for mobile */
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .home-content p {
-        font-size: 18px; /* Larger paragraph text for mobile */
-        max-width: 100%; /* Ensure text takes full width */
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-box a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-container {
+        margin-top: 30px;
+    }
+
+    .home-sci {
+        position: static;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .home-sci a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
     }
 
     .btn-box {
