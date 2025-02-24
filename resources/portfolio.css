@@ -661,6 +661,8 @@ button:hover {
 @media (max-width: 768px) {
     /* General Adjustments */
     body {
+        border: 5px solid red; /* Remove this after debugging */
+
         font-size: 16px; /* Increase base font size for better readability */
     }
 
