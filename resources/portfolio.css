@@ -657,12 +657,11 @@ button:hover {
     color: #888;
 }
 
-
 /* ===== MEDIA QUERIES FOR MOBILE RESPONSIVENESS ===== */
 @media (max-width: 768px) {
     /* General Adjustments */
     body {
-        font-size: 14px;
+        font-size: 16px; /* Increase base font size for better readability */
     }
 
     /* Header */
@@ -671,12 +670,17 @@ button:hover {
     }
 
     .logo {
-        font-size: 24px;
+        font-size: 28px; /* Larger logo for mobile */
+    }
+
+    .navigation {
+        display: flex;
+        gap: 10px; /* Space between navigation links */
     }
 
     .navigation a {
         font-size: 16px;
-        margin-left: 15px;
+        margin-left: 0; /* Remove left margin for better spacing */
     }
 
     /* Home Section */
@@ -684,18 +688,20 @@ button:hover {
         flex-direction: column;
         padding: 60px 5% 30px;
         text-align: center;
+        width: 100%; /* Ensure full width */
     }
 
     .home-content h1 {
-        font-size: 36px;
+        font-size: 42px; /* Larger heading for mobile */
     }
 
     .home-content h3 {
-        font-size: 24px;
+        font-size: 28px; /* Larger subheading for mobile */
     }
 
     .home-content p {
-        font-size: 16px;
+        font-size: 18px; /* Larger paragraph text for mobile */
+        max-width: 100%; /* Ensure text takes full width */
     }
 
     .btn-box {
@@ -704,13 +710,13 @@ button:hover {
     }
 
     .btn-box a {
-        font-size: 16px;
-        padding: 10px 20px;
+        font-size: 18px; /* Larger button text */
+        padding: 12px 24px;
     }
 
     .profile-container {
-        width: 200px;
-        height: 200px;
+        width: 220px; /* Slightly larger profile image */
+        height: 220px;
         margin-top: 20px;
     }
 
@@ -720,31 +726,39 @@ button:hover {
         margin-top: 20px;
     }
 
+    .home-sci a {
+        width: 40px; /* Slightly larger social icons */
+        height: 40px;
+        font-size: 20px;
+    }
+
     /* About Me Section */
     .aboutme {
         padding: 50px 5%;
         height: auto;
+        width: 100%; /* Ensure full width */
     }
 
     .aboutme-container {
         flex-direction: column;
         text-align: center;
+        width: 100%; /* Ensure full width */
     }
 
     .basicInfo {
-        max-width: 100%;
+        max-width: 100%; /* Ensure text takes full width */
     }
 
     .basicInfo h1 {
-        font-size: 36px;
+        font-size: 42px; /* Larger heading for mobile */
     }
 
     .basicInfo h3 {
-        font-size: 20px;
+        font-size: 24px; /* Larger subheading for mobile */
     }
 
     .basicInfo p {
-        font-size: 16px;
+        font-size: 18px; /* Larger paragraph text for mobile */
     }
 
     .aboutmepic {
@@ -753,78 +767,86 @@ button:hover {
     }
 
     .aboutmepic img {
-        width: 100%;
-        max-width: 400px;
+        width: 100%; /* Ensure image takes full width */
+        max-width: 400px; /* Limit maximum width */
     }
 
     /* Portfolio Sections */
     .portfolio, .portfolio2 {
         padding: 50px 5%;
+        width: 100%; /* Ensure full width */
     }
 
     .portfolio-header h1, .portfolio-header h1 {
-        font-size: 36px;
+        font-size: 42px; /* Larger heading for mobile */
     }
 
     .portfolio-header h3, .portfolio-header h3 {
-        font-size: 18px;
+        font-size: 20px; /* Larger subheading for mobile */
     }
 
     .project-container {
         flex-direction: column;
         padding: 30px 5%;
         gap: 20px;
+        width: 100%; /* Ensure full width */
     }
 
     .project-content h1 {
-        font-size: 24px;
+        font-size: 32px; /* Larger heading for mobile */
     }
 
     .project-content p {
-        font-size: 16px;
+        font-size: 18px; /* Larger paragraph text for mobile */
     }
 
     .project-image img {
-        max-width: 100%;
+        width: 100%; /* Ensure image takes full width */
     }
 
     /* Contact Section */
     .contact {
         padding: 50px 5%;
+        width: 100%; /* Ensure full width */
     }
 
     .contact-container h2 {
-        font-size: 36px;
+        font-size: 42px; /* Larger heading for mobile */
     }
 
     .contact-container p {
-        font-size: 16px;
+        font-size: 18px; /* Larger paragraph text for mobile */
+    }
+
+    .input-box {
+        width: 100%; /* Ensure full width */
     }
 
     .input-box input, .input-box textarea {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px; /* Larger input text */
+        padding: 12px;
     }
 
     button {
-        font-size: 16px;
-        padding: 10px 20px;
+        font-size: 18px; /* Larger button text */
+        padding: 12px 24px;
     }
 
     /* Footer */
     .footer {
         padding: 20px 5%;
+        width: 100%; /* Ensure full width */
     }
 
     .social-icons a {
-        font-size: 24px;
+        font-size: 24px; /* Larger social icons */
     }
 
     .contact-info ul li {
-        font-size: 14px;
+        font-size: 16px; /* Larger contact info text */
     }
 
     .copyright {
-        font-size: 12px;
+        font-size: 14px; /* Larger copyright text */
     }
 }
